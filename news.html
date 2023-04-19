@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+  
+    <style>
+      body {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/886/original/hamish-dowson-HgxVSzUHDRY-unsplash.jpg?1681902450);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .news {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 10px;
+		}
+		
+		.column {
+			flex-basis: 30%;
+			margin: 0 20px;
+            background-color: rgba(63, 61, 61, 0.7);
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            height: 500px;
+            border: 1px solid black;
+		}
+		
+		.column img {
+			display: block;
+			max-width: 100%;
+			height: 180px;
+			margin-bottom: 10px;
+            align-items: center;
+            text-align: center;
+            margin: 5px auto;
+            border-radius: 15px;
+            border: 1px solid #fff;
+		}
+		
+		.column h2 {
+			font-size: 20px;
+			margin-bottom: 10px;
+            text-align: center;
+            color: #fff;
+            margin-top: 10px;
+		}
+		
+		.column p {
+			font-size: 13px;
+			line-height: 1.5;
+			margin-bottom: 5px;
+            color: #fff;
+            text-align: center;
+		}
+
+        p:hover {
+            color: black;
+            cursor: pointer;
+        }
+
+    </style>
+  
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html" target="_blank">Home</a></li>
+        <li><a href="/news.html" target="_blank">News</a></li>
+        <li><a href="/about.html" target="_blank">About</a></li>
+        <li><a href="/contact.html" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Daily News By Nasa</h1>
+
+      <div class="video">
+        <iframe width="600" height="330"  src="https://www.youtube.com/embed/MeiGUv5jF5Y" title="What&#39;s Up: April 2023 Skywatching Tips from NASA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <a href="https://solarsystem.nasa.gov/news/?order=publish_date+desc&per_page=50&page=0&search=&filter_categories%5B0%5D%5B%5D=-438&fs=&fc=&ft=&dp=&category=-438" 
+      target="_blank" style="margin-left: 30px;">News on Nasa
+      </a>
+
+<hr style="margin: 20px;">
+
+<div class="news">
+    <div class="column">
+        <img src="https://solarsystem.nasa.gov/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdUIzIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8f467892c2eeef714ac17b89ca8039d5000e944e/as12-48-7134_1280.jpg?disposition=attachment" 
+        alt="Image 1">
+        <h2>Who Has Walked on the Moon?</h2>
+        <a href="https://solarsystem.nasa.gov/news/890/who-has-walked-on-the-moon/" 
+        target="_blank"
+        style="text-decoration: none;">
+            <p>Four more human beings are set to return to the Moon in late 2024.
+
+            </p>
+        </a>
+    </div>
+    <div class="column">
+        <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/stsci-01gwqdqcs9rf0dxmrvq49k4k3b.png?itok=5OAwQt8n" 
+        alt="Image 2">
+        <h2>Following in the footsteps of the Neptune image released in 2022,...</h2>
+        <a href="https://solarsystem.nasa.gov/news/890/who-has-walked-on-the-moon/" 
+        target="_blank"
+        style="text-decoration: none;">
+            <p>Four more human beings are set to return to the Moon in late 2024.
+
+            </p>
+        </a>
+    </div>
+     <div class="column">
+        <img src="https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/1-pia25688-1041.jpg?itok=oFs3WnGw" 
+        alt="Image 3">
+        <h2>NASA’s Perseverance Collects First Mars Sample of New Science Campaign</h2>
+        <a href="https://solarsystem.nasa.gov/news/890/who-has-walked-on-the-moon/" 
+        target="_blank"
+        style="text-decoration: none;">
+            <p>The rover continues its hunt for rocks worthy of bringing to Earth for further study.
+            </p>
+        </a>
+    </div>
+</div>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+          <p>&copy; Coded by Jacqueline Pearl. Since 2023</p>
+          <ul>
+            <li>
+              <a href="#" style="text-decoration: none; font-size: 13px;">
+                Contact me
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+  </body>
+</html>
